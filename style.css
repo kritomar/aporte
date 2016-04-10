@@ -1,0 +1,13 @@
+h1 {
+	color: #fff;
+font-family: 'Exo', sans-serif;
+margin: 15px 0;	
+font-size: 1.75em;	
+font-weight: normal;
+line-height: 0.8em;/*espacio entre o parrafos lineas*/
+}
+
+header{
+	background: #ffde40;
+	border-color: #ffe773;
+}
