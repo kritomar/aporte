@@ -1,0 +1,11 @@
+Detalle Calificacion
+Requisitos Funcionales (5 Puntos): 2 Puntos. No busca estudiante, nunca es encontrado. Funcionalidad Basica falla
+Errores Manejados o no tiene en consola (2 Puntos): 1.5 Puntos. No tiene errores en la consola aunque no hubo manejo de errores, ni validaciones.
+Buen Uso de Funciones, Ciclos y DRY (2 Puntos): 0.5 Puntos. Falto funcion para imprimir estudiante.
+Comentarios (1 Punto): 1 Punto. Si comentaron.
+Subio bien a github (1 Punto bonus): 1.
+Total: 6
+
+Comentarios Profesor:
+No uso objeto estudiante dentro del arreglo. Eso era un requisito super importante seguir los requisitos.
+No validaron nada del imput del usuario.

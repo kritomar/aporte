@@ -5,6 +5,7 @@ function printListEstudiantes(listaEstudiantes)
 	for (var i=0; i < listaEstudiantes.length; i += 1)
 	{
 		listHTML += '<li>Nombre: '+ estudiante[0,i]+  '</li>';
+		//Esto parece que no va a funcionar
 	}
 	listHTML += '</ol>';
 	print(listHTML);
@@ -45,6 +46,8 @@ while(true)
 	}
 	else 
 	{
+		//No debian usar indexOf. Aqui esta la falla. 
+		//Por eso nunca encuentran, xq usan index of en array de arrays.
 		var enlista = estudiante.indexOf(busqueda);
 		if (enlista >= 0)
 		{
